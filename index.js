@@ -128,6 +128,9 @@ run().catch(console.dir)
 app.get('/', (req, res) => {
     res.send("Running genius server")
 })
+app.get('/hero', (req, res) => {
+    res.send("Hero meets hero ku")
+})
 
 
 app.listen(port, () => {
